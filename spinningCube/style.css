@@ -1,0 +1,133 @@
+#canvas1 {
+	position: absolute;
+	background: black;
+	outline: white 2px solid;
+	left: 25px;
+	top: 25px;
+}
+
+.options {
+	position: absolute;
+	width: 240px;
+	height: 900px;
+	top: 25px;
+	right: 20px;
+}
+
+.startStopButton {
+	position: relative;
+	border: white 2px solid;
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	top: 125px;
+}
+
+.startStopButton:hover {
+	position: relative;
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	top: 125px;
+}
+
+.startStopButton:active {
+	position: relative;
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	transform: scale(0.9);
+
+	top: 125px;
+}
+
+.speedSlider {
+	position: relative;
+	-webkit-appearance: none;
+	appearance: none;
+	outline: white 2px solid;
+	background: black;
+	width: 240px;
+	height: 25px;
+
+}
+
+.speedSlider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 10px;
+	height: 25px;
+	background: white;
+	cursor: pointer;
+}
+
+.shapes {
+	border: white 2px solid;
+	background-color: black;
+	color: white;
+	position: relative;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	text-align: center;
+
+}
+
+.shapes:hover {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: relative;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	text-align: center;
+
+}
+
+.backButton {
+	position: relative;
+	border: white 2px solid;
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	top: 690px;
+}
+
+.backButton:hover {
+	position: relative;
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	top: 690px;
+}
+
+.backButton:active {
+	position: relative;
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	transform: scale(0.9);
+
+	top: 690px;
+}

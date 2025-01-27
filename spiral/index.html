@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>voxelSpiral</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: black">
+	<canvas id="canvas1" width="1600" height="900"> </canvas>
+	<div class="options">
+		<h1 class="text">Grid</h1>
+		<input type="number" class="numberField" id="cellSizeId" min="1" max="100" value="20">
+		<button class="templateButton" id="drawGridButton">Draw Grid</button>
+
+		<h1 class="text">Spiral</h1>
+		<input type="number" class="numberField" id="spiralAngleId" min="1" max="100" value="1440">
+		<button class="templateButton" id="drawSpiralButton">Draw Spiral</button>
+		<button class="templateButton" onclick="clearCanvas()">Clear Canvas</button>
+		<button class="backButton" onclick="window.location.href='../index.html'">Back</button>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>

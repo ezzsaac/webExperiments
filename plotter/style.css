@@ -1,0 +1,156 @@
+#canvas1 {
+	position: absolute;
+	background: black;
+	outline: white 2px solid;
+	left: 25px;
+	top: 25px;
+}
+
+.functions {
+	border: white 2px solid;
+	background-color: black;
+	color: white;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	text-align: center;
+
+	top: 25px;
+}
+
+.functions:hover {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	text-align: center;
+
+	top: 25px;
+}
+
+
+.plot {
+	border: white 2px solid;
+	background-color: black;
+	color: white;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	top: 125px;
+}
+
+.plot:hover {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	top: 125px;
+}
+
+.plot:active {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	transform: scale(0.9);
+
+	top: 125px;
+}
+
+.clear {
+	border: white 2px solid;
+	background-color: black;
+	color: white;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	top: 225px;
+}
+
+.clear:hover {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	top: 225px;
+}
+
+.clear:active {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	transform: scale(0.9);
+
+	top: 225px;
+}
+
+.backButton {
+	border: white 2px solid;
+	background-color: black;
+	color: white;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	bottom: 25px;
+}
+
+.backButton:hover {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	bottom: 25px;
+}
+
+.backButton:active {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	transform: scale(0.9);
+
+	bottom: 25px;
+}

@@ -1,0 +1,127 @@
+#canvas1 {
+	position: absolute;
+	background: black;
+	outline: white 2px solid;
+	left: 25px;
+	top: 25px;
+}
+
+.templateButton {
+	border: white 2px solid;
+	background-color: black;
+	color: white;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	top: 25px;
+}
+
+.templateButton:hover {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	top: 25px;
+}
+
+.templateButton:active {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	transform: scale(0.9);
+
+	top: 25px;
+}
+
+.second {
+	border: white 2px solid;
+	background-color: black;
+	color: white;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	top: 100px;
+}
+
+.second:hover {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	top: 100px;
+}
+
+.second:active {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	transform: scale(0.9);
+
+	top: 100px;
+}
+
+.backButton {
+	border: white 2px solid;
+	background-color: black;
+	color: white;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	bottom: 25px;
+}
+
+.backButton:hover {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	bottom: 25px;
+}
+
+.backButton:active {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: absolute;
+	right: 20px;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	transform: scale(0.9);
+
+	bottom: 25px;
+}

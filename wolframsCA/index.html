@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>wolframsCA</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: black">
+	<canvas id="canvas1" width="1600" height="900"> </canvas>
+	<div class="options">
+		<h1 class="text">Rule Number:</h1>
+		<input type="number" class="numberField" id="ruleNumber" min="1" max="100" value="57">
+		<h1 class="text">Step Amount:</h1>
+		<input type="number" class="numberField" id="stepsNumber" min="1" max="100" value="0">
+		<button class="templateButton" id="stepButton">Step</button>
+		<button class="templateButton" id="clearButton">Clear</button>
+		<button class="backButton" onclick="window.location.href='../index.html'">Back</button>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>

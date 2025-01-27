@@ -1,0 +1,182 @@
+#canvas1 {
+	position: absolute;
+	background: black;
+	outline: white 2px solid;
+	left: 25px;
+	top: 25px;
+}
+
+.options {
+	position: absolute;
+	width: 240px;
+	height: 900px;
+	top: 23px;
+	right: 20px;
+}
+
+
+
+.templateButton {
+	border: white 2px solid;
+	background-color: black;
+	color: white;
+	position: relative;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	outline: none;
+	margin-bottom: 10px;
+
+}
+
+.templateButton:hover {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: relative;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	outline: none;
+	margin-bottom: 10px;
+
+}
+
+
+.templateButton:active {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: relative;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	outline: none;
+	transform: scale(0.9);
+	margin-bottom: 10px;
+
+}
+
+.templateSlider {
+	position: relative;
+	-webkit-appearance: none;
+	appearance: none;
+	outline: white 2px solid;
+	background: black;
+	width: 236px;
+	height: 25px;
+
+	margin-bottom: 12px;
+}
+
+.templateSlider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 10px;
+	height: 25px;
+	background: white;
+	cursor: pointer;
+}
+
+
+.templateSelect {
+	border: white 2px solid;
+	background-color: black;
+	color: white;
+	position: relative;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	text-align: center;
+	outline: none;
+
+	margin-bottom: 10px;
+}
+
+.templateSelect:focus {
+	border: white 2px solid;
+	background-color: black;
+	color: white;
+	position: relative;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	text-align: center;
+	outline: none;
+
+	margin-bottom: 10px;
+}
+
+.templateSelect:hover {
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	position: relative;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	text-align: center;
+	outline: none;
+
+	margin-bottom: 10px;
+}
+
+.text {
+	text-decoration: underline;
+	font-family: sans-serif;
+	color: white;
+	font-size: 24px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+
+}
+
+.numberField {
+	border: white 2px solid;
+	background-color: black;
+	color: white;
+	position: relative;
+	font-size: 24px;
+	height: 32px;
+	width: 232px;
+	outline: none;
+
+	margin-bottom: 10px;
+}
+
+.backButton {
+	position: relative;
+	border: white 2px solid;
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	top: 417px;
+}
+
+.backButton:hover {
+	position: relative;
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+
+	top: 417px;
+}
+
+.backButton:active {
+	position: relative;
+	border: black 2px solid;
+	background-color: white;
+	color: black;
+	font-size: 24px;
+	height: 60px;
+	width: 240px;
+	transform: scale(0.9);
+
+	top: 417px;
+}

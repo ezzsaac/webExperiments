@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>spinningCube</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: black">
+	<div class="options">
+		<input type="range" class="speedSlider" min="0" max="100" value="100" id="speedSlider">
+
+		<button class="button startStopButton" id="startStopButton">Start/Stop</button>
+
+		<select class="select shapes" id="shapes" name="shapes">
+			<option value="cube">cube</option>
+			<option value="crystal">crystal</option>
+		</select>
+
+		<button class="backButton" onclick="window.location.href='../index.html'">Back</button>
+	</div>
+
+
+
+	<canvas id="canvas1" width="1600" height="900"> </canvas>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
