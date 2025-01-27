@@ -153,7 +153,7 @@
 	height: 60px;
 	width: 240px;
 
-	top: 417px;
+	top: 530px;
 }
 
 .backButton:hover {
@@ -165,7 +165,7 @@
 	height: 60px;
 	width: 240px;
 
-	top: 417px;
+	top: 530px;
 }
 
 .backButton:active {
@@ -178,5 +178,5 @@
 	width: 240px;
 	transform: scale(0.9);
 
-	top: 417px;
+	top: 530px;
 }
