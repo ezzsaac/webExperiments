@@ -1,0 +1,190 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+}
+
+.wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#Canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: black;
+    border: 2px solid white;
+}
+
+.options {
+    position: absolute;
+    width: 260px;
+    top: 24px;
+    right: 20px;
+    user-select: none;
+    border: white 2px solid;
+    background-color: black;
+    color: white;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 18px;
+}
+
+#optionFields {
+    padding: 0 10px 10px 10px;
+}
+
+#optionsHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+
+.Button {
+    border: white 2px solid;
+    background-color: black;
+    color: white;
+    position: relative;
+    font-size: 24px;
+    height: 60px;
+    width: 240px;
+    outline: none;
+}
+
+.Button:hover {
+    border: black 2px solid;
+    background-color: white;
+    color: black;
+    position: relative;
+    font-size: 24px;
+    height: 60px;
+    width: 240px;
+    outline: none;
+}
+
+
+.Button:active {
+    border: black 2px solid;
+    background-color: white;
+    color: black;
+    position: relative;
+    font-size: 24px;
+    height: 60px;
+    width: 240px;
+    outline: none;
+    transform: scale(0.9);
+}
+
+.minimizeButton {
+    border: white 2px solid;
+    background-color: black;
+    color: white;
+    position: relative;
+    font-size: 24px;
+    outline: none;
+}
+
+.minimizeButton:hover {
+    border: black 2px solid;
+    background-color: white;
+    color: black;
+    position: relative;
+    font-size: 24px;
+    outline: none;
+}
+
+
+.minimizeButton:active {
+    border: black 2px solid;
+    background-color: white;
+    color: black;
+    position: relative;
+    font-size: 24px;
+    outline: none;
+    transform: scale(0.9);
+}
+
+.Slider {
+    position: relative;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: white 2px solid;
+    background: black;
+    width: 236px;
+    height: 25px;
+}
+
+.Slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 25px;
+    background: white;
+    cursor: pointer;
+}
+
+
+.Select {
+    border: white 2px solid;
+    background-color: black;
+    color: white;
+    position: relative;
+    font-size: 24px;
+    height: 60px;
+    width: 240px;
+    text-align: center;
+    outline: none;
+}
+
+.Select:focus {
+    border: white 2px solid;
+    background-color: black;
+    color: white;
+    position: relative;
+    font-size: 24px;
+    height: 60px;
+    width: 240px;
+    text-align: center;
+    outline: none;
+}
+
+.Select:hover {
+    border: black 2px solid;
+    background-color: white;
+    color: black;
+    position: relative;
+    font-size: 24px;
+    height: 60px;
+    width: 240px;
+    text-align: center;
+    outline: none;
+}
+
+.text {
+    text-decoration: underline;
+    font-family: sans-serif;
+    color: white;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.numberField {
+    border: white 2px solid;
+    background-color: black;
+    color: white;
+    position: relative;
+    font-size: 24px;
+    height: 32px;
+    width: 232px;
+    outline: none;
+}
