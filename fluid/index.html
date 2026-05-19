@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoissonsFluid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: black">
+    <div class="wrapper">
+        <canvas id="Canvas"> </canvas>
+        <div class="options" id="options">
+            <div id="optionsHeader">
+                <h1 class="text">Options</h1>
+                <button class="minimizeButton" onclick="window.location.href='../index.html'">Back</button>
+                <button class="minimizeButton" onclick="minimizeOptions()" id="minimizeButton">-</button>
+            </div>
+            <div id="optionFields">
+                <div id="dynamicOptions"></div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="pageUtils.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
