@@ -32,8 +32,14 @@ let velocity
 let pressure
 let divergence
 
-let simWidth = canvas.width
-let simHeight = canvas.height
+let cWidth = canvas.width
+let cHeight = canvas.height
+
+let maxRes = 10
+let resolution = 8
+
+let simWidth = cWidth / resolution
+let simHeight = cHeight / resolution
 
 let maxIters = 100
 let lastTime = performance.now()
@@ -66,6 +72,10 @@ addSelectTemplate("Render Mode", ["Velocity", "Divergence", "Pressure"], (value)
 
 addSliderTemplate("Itterations", 0, 200, 100, 1, (value) => {
     maxIters = value;
+});
+
+addSliderTemplate("Resulution", 0, 5, 3, 1, (value) => {
+    resolution = Math.pow(2, value);
 });
 
 addSliderTemplate("Splat radius", 0, 0.01, 0.006, 0.0001, (value) => {
@@ -307,8 +317,8 @@ async function init(gl) {
 
         gl.uniform2f(
             gl.getUniformLocation(programs.splat, "point"),
-            x / simWidth,
-            1.0 - y / simHeight
+            x / cWidth,
+            1.0 - y / cHeight
         )
 
         gl.uniform2f(
@@ -319,7 +329,7 @@ async function init(gl) {
 
         gl.uniform1f(
             gl.getUniformLocation(programs.splat, "radius"),
-            radius
+            radius / resolution
         )
 
         compute(velocity.write.fbo)
@@ -367,7 +377,10 @@ async function init(gl) {
         gl.uniform1i(renderModeLoc, renderMode)
 
 
-        compute(null)
+        gl.bindFramebuffer(gl.FRAMEBUFFER, null)
+        gl.viewport(0, 0, cWidth, cHeight)
+        gl.bindVertexArray(vao)
+        gl.drawArrays(gl.TRIANGLES, 0, 6)
 
         requestAnimationFrame(loop)
     }
